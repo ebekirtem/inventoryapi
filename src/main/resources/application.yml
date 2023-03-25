@@ -1,0 +1,36 @@
+
+server:
+ port: 8080
+ 
+ error:
+    include-binding-errors: always
+    include-message: always
+    include-stacktrace: never
+
+spring:
+ datasource:
+   url: jdbc:postgresql://localhost:5432/inventory_db
+   username: postgres
+   password: postgre
+
+    
+ jpa:
+  hibernate:
+    ddl-auto: update
+  show-sql: true
+  properties:
+   '[hibernate.format_sql]': true
+  database: POSTGRESQL
+  open-in-view: false
+
+logging:
+ file:
+  name: inventory.log
+ pattern:
+    file: "%d %-5level [%thread] %logger:%msg%n"
+ 
+ level:
+   '[org.springframework.web]': INFO
+   '[org.hibernate]': INFO
+   '[com.inventory]': INFO
+
