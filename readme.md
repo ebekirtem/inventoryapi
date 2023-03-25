@@ -1,7 +1,7 @@
 This is a inventoryapi spring boot project
 
-Spring Boot Version: 2.3.12.RELEASE
-Java version: 1.8
+Spring Boot Version: 2.3.12.RELEASE,
+Java version: 1.8,
 Database: PostgreSQL 14 
 
 swagger documentation link:
