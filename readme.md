@@ -9,4 +9,4 @@ hibernate: ddl-auto: update
 swagger documentation link:
 http://localhost:8080/swagger-ui/index.html
 
-Postman collection: 
+Postman collection: https://github.com/ebekirtem/inventoryapi/blob/main/Inventory-api.postman_collection.json
