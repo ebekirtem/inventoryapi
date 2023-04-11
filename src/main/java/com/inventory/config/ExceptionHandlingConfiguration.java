@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.util.stream.Collectors;
 
 /**
- * This is exception handling config class.
+ * This is exception handling config class. new brach added
  */
 @RestControllerAdvice
 public class ExceptionHandlingConfiguration {
