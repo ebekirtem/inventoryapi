@@ -14,6 +14,9 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.util.stream.Collectors;
 
+/**
+ * This is exception handling config class.
+ */
 @RestControllerAdvice
 public class ExceptionHandlingConfiguration {
 
