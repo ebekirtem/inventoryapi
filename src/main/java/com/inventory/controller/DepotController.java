@@ -14,7 +14,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/depot")
+@RequestMapping("/api/depots")
 public class DepotController {
     private final DepotService depotService;
 
